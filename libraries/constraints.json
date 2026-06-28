@@ -1,0 +1,290 @@
+[
+  {
+    "id": "C01",
+    "name": "Species-Specific Stunning Variability",
+    "category": "Biological",
+    "definition": "Different fish species respond differently to the same stunning method.",
+    "activation_strength": 90,
+    "activation_variables": ["species_type"],
+    "related_constraints": ["C02", "C03", "C04"],
+    "evidence_status": "E1",
+    "confidence": "High"
+  },
+  {
+    "id": "C02",
+    "name": "Body Size Heterogeneity",
+    "category": "Biological",
+    "definition": "Variation in fish size within processing batches.",
+    "activation_strength": 80,
+    "activation_variables": ["fish_size"],
+    "related_constraints": ["C01", "C05", "C12"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C03",
+    "name": "Physiological Stress Prior to Slaughter",
+    "category": "Biological",
+    "definition": "Elevated stress state before stunning.",
+    "activation_strength": 85,
+    "activation_variables": ["monitoring_level", "crew_skill"],
+    "related_constraints": ["C10", "C11", "C14"],
+    "evidence_status": "E1",
+    "confidence": "High"
+  },
+  {
+    "id": "C04",
+    "name": "Anatomical Access Limitations",
+    "category": "Biological",
+    "definition": "Fish morphology limits effective application of stunning systems.",
+    "activation_strength": 75,
+    "activation_variables": ["species_type", "fish_size"],
+    "related_constraints": ["C01", "C15"],
+    "evidence_status": "E2",
+    "confidence": "Medium"
+  },
+  {
+    "id": "C05",
+    "name": "Throughput Pressure",
+    "category": "Operational",
+    "definition": "Production speed requirements constrain welfare practices.",
+    "activation_strength": 95,
+    "activation_variables": ["throughput"],
+    "related_constraints": ["C06", "C13", "C17"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C06",
+    "name": "Limited Verification Capacity",
+    "category": "Operational",
+    "definition": "Inability to routinely verify insensibility.",
+    "activation_strength": 85,
+    "activation_variables": ["verification_capacity"],
+    "related_constraints": ["C07", "C20"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C07",
+    "name": "Absence of Reliable Welfare Indicators",
+    "category": "Operational",
+    "definition": "Lack of validated field indicators of insensibility.",
+    "activation_strength": 80,
+    "activation_variables": ["verification_capacity"],
+    "related_constraints": ["C06", "C23"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C08",
+    "name": "Equipment Reliability Constraints",
+    "category": "Infrastructure",
+    "definition": "Stunning equipment performance varies over time.",
+    "activation_strength": 70,
+    "activation_variables": ["power_availability"],
+    "related_constraints": ["C09", "C16"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C09",
+    "name": "Calibration Challenges",
+    "category": "Infrastructure",
+    "definition": "Difficulty maintaining optimal stunning parameters.",
+    "activation_strength": 75,
+    "activation_variables": ["power_availability"],
+    "related_constraints": ["C08", "C12"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C10",
+    "name": "Pre-Slaughter Handling Stress",
+    "category": "Operational",
+    "definition": "Handling practices induce stress before stunning.",
+    "activation_strength": 85,
+    "activation_variables": ["crew_skill", "monitoring_level"],
+    "related_constraints": ["C03", "C11"],
+    "evidence_status": "E1",
+    "confidence": "High"
+  }
+  ,
+  {
+    "id": "C11",
+    "name": "Crowding During Harvest",
+    "category": "Operational",
+    "definition": "Fish are densely concentrated before slaughter.",
+    "activation_strength": 85,
+    "activation_variables": ["throughput", "environment_type"],
+    "related_constraints": ["C10", "C03"],
+    "evidence_status": "E1",
+    "confidence": "High"
+  },
+  {
+    "id": "C12",
+    "name": "Electrical Conductivity Variability",
+    "category": "Infrastructure",
+    "definition": "Water conditions alter electrical stunning performance.",
+    "activation_strength": 80,
+    "activation_variables": ["environment_type", "power_availability"],
+    "related_constraints": ["C02", "C09"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C13",
+    "name": "Labor Skill Variability",
+    "category": "Operational",
+    "definition": "Worker capability differs across facilities.",
+    "activation_strength": 75,
+    "activation_variables": ["crew_skill"],
+    "related_constraints": ["C05", "C15"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C14",
+    "name": "Delayed Slaughter Logistics",
+    "category": "Operational",
+    "definition": "Delays between harvest and slaughter.",
+    "activation_strength": 70,
+    "activation_variables": ["throughput", "environment_type"],
+    "related_constraints": ["C03", "C10"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C15",
+    "name": "Precision Targeting Limitations",
+    "category": "Infrastructure",
+    "definition": "Difficulty accurately applying stunning mechanisms.",
+    "activation_strength": 75,
+    "activation_variables": ["crew_skill", "species_type"],
+    "related_constraints": ["C04", "C13"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C16",
+    "name": "Maintenance Resource Constraints",
+    "category": "Economic",
+    "definition": "Limited resources for upkeep and servicing.",
+    "activation_strength": 70,
+    "activation_variables": ["power_availability"],
+    "related_constraints": ["C08", "C09"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C17",
+    "name": "Cost Sensitivity",
+    "category": "Economic",
+    "definition": "Welfare interventions compete with cost pressures.",
+    "activation_strength": 80,
+    "activation_variables": ["throughput"],
+    "related_constraints": ["C05", "C18"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C18",
+    "name": "Capital Investment Barriers",
+    "category": "Economic",
+    "definition": "Upfront cost of humane slaughter systems.",
+    "activation_strength": 75,
+    "activation_variables": ["throughput"],
+    "related_constraints": ["C17", "C21"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C19",
+    "name": "Regulatory Ambiguity",
+    "category": "Governance",
+    "definition": "Lack of clear welfare requirements.",
+    "activation_strength": 70,
+    "activation_variables": ["environment_type"],
+    "related_constraints": ["C22", "C24"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C20",
+    "name": "Lack of Continuous Monitoring",
+    "category": "Operational",
+    "definition": "Welfare outcomes not continuously tracked.",
+    "activation_strength": 80,
+    "activation_variables": ["monitoring_level", "verification_capacity"],
+    "related_constraints": ["C06", "C07"],
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "C21",
+    "name": "Facility Retrofit Constraints",
+    "category": "Infrastructure",
+    "definition": "Existing facilities are difficult to modify.",
+    "activation_strength": 70,
+    "activation_variables": ["environment_type"],
+    "related_constraints": ["C18", "C25"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C22",
+    "name": "Weak Welfare Enforcement",
+    "category": "Governance",
+    "definition": "Existing welfare standards are poorly enforced.",
+    "activation_strength": 75,
+    "activation_variables": ["environment_type"],
+    "related_constraints": ["C19"],
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "C23",
+    "name": "Validation Data Gaps",
+    "category": "Governance",
+    "definition": "Insufficient evidence linking indicators to consciousness.",
+    "activation_strength": 70,
+    "activation_variables": ["verification_capacity"],
+    "related_constraints": ["C07", "C26"],
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "C24",
+    "name": "Certification Misalignment",
+    "category": "Governance",
+    "definition": "Certification systems inadequately measure slaughter welfare.",
+    "activation_strength": 70,
+    "activation_variables": ["environment_type"],
+    "related_constraints": ["C19", "C22"],
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "C25",
+    "name": "Environmental Variability",
+    "category": "Infrastructure",
+    "definition": "Facility conditions affect stunning performance.",
+    "activation_strength": 75,
+    "activation_variables": ["environment_type", "power_availability"],
+    "related_constraints": ["C12", "C21"],
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "C26",
+    "name": "Consciousness Assessment Uncertainty",
+    "category": "Biological",
+    "definition": "Scientific uncertainty around indicators of consciousness in fish.",
+    "activation_strength": 85,
+    "activation_variables": ["verification_capacity"],
+    "related_constraints": ["C07", "C23"],
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  }
+]
+

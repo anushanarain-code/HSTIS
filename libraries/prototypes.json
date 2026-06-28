@@ -1,0 +1,352 @@
+[
+  {
+    "id": "P01",
+    "name": "Adaptive Electrical Stunning Controller",
+    "failure_mode_ids": ["FM01", "FM07", "FM12"],
+    "risk_ids": ["IR01", "IR04", "IR05"],
+    "activation_strength": 90,
+    "trl": "TRL 4-5",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P02",
+    "name": "Water Conductivity Compensation Module",
+    "failure_mode_ids": ["FM12", "FM07"],
+    "risk_ids": ["IR04", "IR05"],
+    "activation_strength": 85,
+    "trl": "TRL 5",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P03",
+    "name": "Recovery Detection System",
+    "failure_mode_ids": ["FM03"],
+    "risk_ids": ["IR03"],
+    "activation_strength": 85,
+    "trl": "TRL 3-4",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "P04",
+    "name": "Automated Reflex Assessment Platform",
+    "failure_mode_ids": ["FM04", "FM08", "FM17"],
+    "risk_ids": ["IR06", "IR08"],
+    "activation_strength": 85,
+    "trl": "TRL 4",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "P05",
+    "name": "Multi-Indicator Insensibility Verification Suite",
+    "failure_mode_ids": ["FM04", "FM15", "FM18"],
+    "risk_ids": ["IR06", "IR07", "IR14"],
+    "activation_strength": 95,
+    "trl": "TRL 3",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "P06",
+    "name": "Real-Time Welfare Monitoring Network",
+    "failure_mode_ids": ["FM08", "FM14", "FM18"],
+    "risk_ids": ["IR08", "IR14"],
+    "activation_strength": 90,
+    "trl": "TRL 4",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "P07",
+    "name": "Batch Heterogeneity Characterization Tool",
+    "failure_mode_ids": ["FM01", "FM07"],
+    "risk_ids": ["IR04"],
+    "activation_strength": 80,
+    "trl": "TRL 5",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P08",
+    "name": "Species-Specific Stunning Parameter Library",
+    "failure_mode_ids": ["FM13"],
+    "risk_ids": ["IR10"],
+    "activation_strength": 85,
+    "trl": "TRL 4",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P09",
+    "name": "Precision Percussive Guidance System",
+    "failure_mode_ids": ["FM06"],
+    "risk_ids": ["IR12"],
+    "activation_strength": 85,
+    "trl": "TRL 4",
+    "evidence_status": "E2",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "P10",
+    "name": "Secondary Stun Trigger System",
+    "failure_mode_ids": ["FM03", "FM08"],
+    "risk_ids": ["IR03", "IR06"],
+    "activation_strength": 90,
+    "trl": "TRL 4",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "P11",
+    "name": "Stress Load Monitoring System",
+    "failure_mode_ids": ["FM02", "FM09"],
+    "risk_ids": ["IR01", "IR11"],
+    "activation_strength": 80,
+    "trl": "TRL 3",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "P12",
+    "name": "Harvest Handling Optimization Toolkit",
+    "failure_mode_ids": ["FM02", "FM09"],
+    "risk_ids": ["IR11"],
+    "activation_strength": 85,
+    "trl": "TRL 6",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P13",
+    "name": "Predictive Maintenance System",
+    "failure_mode_ids": ["FM10"],
+    "risk_ids": ["IR05"],
+    "activation_strength": 85,
+    "trl": "TRL 5",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P14",
+    "name": "Calibration Assurance Platform",
+    "failure_mode_ids": ["FM10", "FM12"],
+    "risk_ids": ["IR05"],
+    "activation_strength": 85,
+    "trl": "TRL 5",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P15",
+    "name": "Throughput-Welfare Optimization Engine",
+    "failure_mode_ids": ["FM11", "FM17"],
+    "risk_ids": ["IR09", "IR13"],
+    "activation_strength": 85,
+    "trl": "TRL 4",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "P16",
+    "name": "Consciousness Biomarker Discovery Platform",
+    "failure_mode_ids": ["FM15", "FM18"],
+    "risk_ids": ["IR07", "IR14"],
+    "activation_strength": 95,
+    "trl": "TRL 2-3",
+    "evidence_status": "E4",
+    "confidence": "Medium"
+  },
+  {
+    "id": "P17",
+    "name": "Machine Vision Welfare Verification System",
+    "failure_mode_ids": ["FM04", "FM08", "FM17"],
+    "risk_ids": ["IR06", "IR08", "IR13"],
+    "activation_strength": 90,
+    "trl": "TRL 3-4",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "P18",
+    "name": "Species Transfer Validation Framework",
+    "failure_mode_ids": ["FM13"],
+    "risk_ids": ["IR10", "IR13"],
+    "activation_strength": 85,
+    "trl": "TRL 4",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "P19",
+    "name": "Retrofit Deployment Kit",
+    "failure_mode_ids": ["FM16"],
+    "risk_ids": ["IR13"],
+    "activation_strength": 80,
+    "trl": "TRL 5",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P20",
+    "name": "Welfare Assurance Validation Platform",
+    "failure_mode_ids": ["FM04", "FM15", "FM18"],
+    "risk_ids": ["IR07", "IR14", "IR15"],
+    "activation_strength": 95,
+    "trl": "TRL 3",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "P21",
+    "name": "Portable Vessel Stunning Module",
+    "failure_mode_ids": ["FM16", "FM11"],
+    "risk_ids": ["IR13", "IR09"],
+    "activation_strength": 85,
+    "trl": "TRL 4-5",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "P22",
+    "name": "Motion-Tolerant Stunning Platform",
+    "failure_mode_ids": ["FM06", "FM01"],
+    "risk_ids": ["IR12", "IR02"],
+    "activation_strength": 85,
+    "trl": "TRL 3-4",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "P23",
+    "name": "Low-Power Electrical Stunning Architecture",
+    "failure_mode_ids": ["FM16", "FM12"],
+    "risk_ids": ["IR13", "IR05"],
+    "activation_strength": 90,
+    "trl": "TRL 3-4",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "P24",
+    "name": "Modular Vessel Retrofit Kit",
+    "failure_mode_ids": ["FM16"],
+    "risk_ids": ["IR13"],
+    "activation_strength": 90,
+    "trl": "TRL 5",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P25",
+    "name": "Ruggedized Marine Stunning System",
+    "failure_mode_ids": ["FM10", "FM16"],
+    "risk_ids": ["IR05", "IR13"],
+    "activation_strength": 85,
+    "trl": "TRL 4",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P26",
+    "name": "High-Throughput Small-Fish Stunning Architecture",
+    "failure_mode_ids": ["FM07", "FM11"],
+    "risk_ids": ["IR04", "IR09"],
+    "activation_strength": 90,
+    "trl": "TRL 3",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "P27",
+    "name": "Batch-Level Verification System",
+    "failure_mode_ids": ["FM17", "FM18"],
+    "risk_ids": ["IR08", "IR14"],
+    "activation_strength": 85,
+    "trl": "TRL 3",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "P28",
+    "name": "Mixed-Species Processing Classifier",
+    "failure_mode_ids": ["FM13", "FM07"],
+    "risk_ids": ["IR10", "IR04"],
+    "activation_strength": 80,
+    "trl": "TRL 3-4",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "P29",
+    "name": "Small-Fish Handling Conveyor System",
+    "failure_mode_ids": ["FM02", "FM09"],
+    "risk_ids": ["IR01", "IR11"],
+    "activation_strength": 90,
+    "trl": "TRL 4",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "P30",
+    "name": "Automated Small-Fish Welfare Monitoring System",
+    "failure_mode_ids": ["FM08", "FM14"],
+    "risk_ids": ["IR08", "IR14"],
+    "activation_strength": 85,
+    "trl": "TRL 3",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "P31",
+    "name": "Onboard Humane Slaughter Decision Support System",
+    "failure_mode_ids": ["FM16", "FM18"],
+    "risk_ids": ["IR13", "IR15"],
+    "activation_strength": 80,
+    "trl": "TRL 3",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "P32",
+    "name": "Species-Agnostic Stunning Parameter Recommender",
+    "failure_mode_ids": ["FM13", "FM07"],
+    "risk_ids": ["IR10", "IR04"],
+    "activation_strength": 80,
+    "trl": "TRL 3",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "P33",
+    "name": "Rapid Welfare Audit Toolkit",
+    "failure_mode_ids": ["FM14", "FM18"],
+    "risk_ids": ["IR08", "IR14"],
+    "activation_strength": 85,
+    "trl": "TRL 4",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "P34",
+    "name": "Commercial Welfare Failure Early Warning System",
+    "failure_mode_ids": ["FM08", "FM10", "FM14"],
+    "risk_ids": ["IR05", "IR08", "IR15"],
+    "activation_strength": 90,
+    "trl": "TRL 4",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "P35",
+    "name": "Adaptive Multi-Species Processing Controller",
+    "failure_mode_ids": ["FM07", "FM13", "FM11"],
+    "risk_ids": ["IR04", "IR09", "IR10"],
+    "activation_strength": 90,
+    "trl": "TRL 3",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  }
+] 

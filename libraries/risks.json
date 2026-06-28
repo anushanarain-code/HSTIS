@@ -1,0 +1,137 @@
+[
+  {
+    "id": "IR01",
+    "name": "Delayed Insensibility Risk",
+    "failure_mode_ids": ["FM01", "FM02", "FM09", "FM12"],
+    "activation_strength": 95,
+    "dimension": "Rapid",
+    "evidence_status": "E1",
+    "confidence": "High"
+  },
+  {
+    "id": "IR02",
+    "name": "Partial Insensibility Risk",
+    "failure_mode_ids": ["FM01", "FM06", "FM12"],
+    "activation_strength": 90,
+    "dimension": "Rapid,Reliable",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "IR03",
+    "name": "Recovery Risk",
+    "failure_mode_ids": ["FM03", "FM10"],
+    "activation_strength": 95,
+    "dimension": "Lasting,Reliable",
+    "evidence_status": "E1",
+    "confidence": "High"
+  },
+  {
+    "id": "IR04",
+    "name": "Batch Variability Risk",
+    "failure_mode_ids": ["FM07", "FM13", "FM12"],
+    "activation_strength": 90,
+    "dimension": "Reliable,Scalable",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "IR05",
+    "name": "Parameter Drift Risk",
+    "failure_mode_ids": ["FM10", "FM12"],
+    "activation_strength": 90,
+    "dimension": "Reliable,Scalable",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "IR06",
+    "name": "Misclassification Risk",
+    "failure_mode_ids": ["FM04", "FM08", "FM15"],
+    "activation_strength": 95,
+    "dimension": "Verifiable,Reliable",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "IR07",
+    "name": "Verification Uncertainty Risk",
+    "failure_mode_ids": ["FM15", "FM18"],
+    "activation_strength": 95,
+    "dimension": "Verifiable",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "IR08",
+    "name": "Monitoring Coverage Risk",
+    "failure_mode_ids": ["FM08", "FM14", "FM18"],
+    "activation_strength": 85,
+    "dimension": "Verifiable,Scalable",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "IR09",
+    "name": "Throughput-Induced Reliability Risk",
+    "failure_mode_ids": ["FM11", "FM17"],
+    "activation_strength": 95,
+    "dimension": "Reliable,Scalable",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "IR10",
+    "name": "Species Transfer Risk",
+    "failure_mode_ids": ["FM13", "FM07"],
+    "activation_strength": 90,
+    "dimension": "Reliable,Scalable",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "IR11",
+    "name": "Stress-Mediated Insensibility Risk",
+    "failure_mode_ids": ["FM02", "FM09"],
+    "activation_strength": 90,
+    "dimension": "Rapid,Reliable",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "IR12",
+    "name": "Precision Application Risk",
+    "failure_mode_ids": ["FM06"],
+    "activation_strength": 90,
+    "dimension": "Rapid,Reliable",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "IR13",
+    "name": "Scalability Failure Risk",
+    "failure_mode_ids": ["FM16", "FM17", "FM07"],
+    "activation_strength": 90,
+    "dimension": "Scalable,Reliable,Verifiable",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "IR14",
+    "name": "Welfare Assurance Risk",
+    "failure_mode_ids": ["FM04", "FM15", "FM18"],
+    "activation_strength": 95,
+    "dimension": "Verifiable,Reliable",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "IR15",
+    "name": "Systemic Insensibility Risk",
+    "failure_mode_ids": ["FM08", "FM11", "FM18"],
+    "activation_strength": 100,
+    "dimension": "Rapid,Reliable,Lasting,Verifiable,Scalable",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  }
+]

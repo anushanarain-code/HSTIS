@@ -1,0 +1,134 @@
+[
+  {
+    "id": "GP01",
+    "name": "Fish Insensibility Verification Initiative",
+    "research_program_ids": ["RP01", "RP12"],
+    "prototype_ids": ["P04", "P05"],
+    "activation_strength": 95,
+    "funding_range": "$500K-$2M",
+    "timeline": "2-4 years",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "GP02",
+    "name": "Consciousness Biomarker Discovery Program",
+    "research_program_ids": ["RP02"],
+    "prototype_ids": ["P16"],
+    "activation_strength": 80,
+    "funding_range": "$750K-$3M",
+    "timeline": "3-6 years",
+    "evidence_status": "E4",
+    "confidence": "Medium"
+  },
+  {
+    "id": "GP03",
+    "name": "Recovery Prevention and Detection Package",
+    "research_program_ids": ["RP03"],
+    "prototype_ids": ["P03", "P10"],
+    "activation_strength": 90,
+    "funding_range": "$400K-$1.5M",
+    "timeline": "2-4 years",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "GP04",
+    "name": "Machine Vision Verification Accelerator",
+    "research_program_ids": ["RP07"],
+    "prototype_ids": ["P04", "P17"],
+    "activation_strength": 85,
+    "funding_range": "$500K-$2M",
+    "timeline": "2-5 years",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "GP05",
+    "name": "Electrical Stunning Reliability Package",
+    "research_program_ids": ["RP05", "RP11"],
+    "prototype_ids": ["P01", "P02", "P14"],
+    "activation_strength": 95,
+    "funding_range": "$500K-$2M",
+    "timeline": "2-4 years",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "GP06",
+    "name": "Stress Reduction and Humane Handling Package",
+    "research_program_ids": ["RP08"],
+    "prototype_ids": ["P11", "P12"],
+    "activation_strength": 90,
+    "funding_range": "$300K-$1.2M",
+    "timeline": "2-4 years",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "GP07",
+    "name": "Species Transferability Initiative",
+    "research_program_ids": ["RP04", "RP13"],
+    "prototype_ids": ["P08", "P18"],
+    "activation_strength": 90,
+    "funding_range": "$500K-$2.5M",
+    "timeline": "3-6 years",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "GP08",
+    "name": "Commercial Welfare Monitoring Package",
+    "research_program_ids": ["RP06"],
+    "prototype_ids": ["P06", "P17"],
+    "activation_strength": 85,
+    "funding_range": "$500K-$2M",
+    "timeline": "2-5 years",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "GP09",
+    "name": "Throughput-Compatible Humane Slaughter Program",
+    "research_program_ids": ["RP10"],
+    "prototype_ids": ["P15"],
+    "activation_strength": 85,
+    "funding_range": "$300K-$1.5M",
+    "timeline": "2-4 years",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "GP10",
+    "name": "Precision Stunning Improvement Package",
+    "research_program_ids": ["RP09"],
+    "prototype_ids": ["P09"],
+    "activation_strength": 90,
+    "funding_range": "$200K-$800K",
+    "timeline": "1-3 years",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "GP11",
+    "name": "Welfare Assurance Standards Package",
+    "research_program_ids": ["RP14", "RP12"],
+    "prototype_ids": ["P20"],
+    "activation_strength": 90,
+    "funding_range": "$250K-$1M",
+    "timeline": "1-3 years",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "GP12",
+    "name": "Humane Slaughter Deployment Accelerator",
+    "research_program_ids": ["RP15"],
+    "prototype_ids": ["P19", "P15"],
+    "activation_strength": 90,
+    "funding_range": "$500K-$2M",
+    "timeline": "2-5 years",
+    "evidence_status": "E2",
+    "confidence": "High"
+  }
+]

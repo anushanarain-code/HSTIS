@@ -1,0 +1,280 @@
+[
+  {
+    "id": "I01",
+    "name": "Species × Size Parameter Mismatch",
+    "constraints": ["C01", "C02"],
+    "activation_strength": 90,
+    "failure_mode_hint": "Partial or inconsistent stunning",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "I02",
+    "name": "Stress Amplification Loop",
+    "constraints": ["C03", "C10"],
+    "activation_strength": 95,
+    "failure_mode_hint": "Elevated stun failure probability",
+    "evidence_status": "E1",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I15",
+    "name": "Environmental Drift Interaction",
+    "constraints": ["C25", "C12"],
+    "activation_strength": 80,
+    "failure_mode_hint": "Batch inconsistency",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+
+  {
+    "id": "I16",
+    "name": "Anatomy × Precision Failure",
+    "constraints": ["C04", "C15"],
+    "activation_strength": 90,
+    "failure_mode_hint": "Incomplete mechanical stunning",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I17",
+    "name": "Species × Anatomy Interaction",
+    "constraints": ["C01", "C04"],
+    "activation_strength": 85,
+    "failure_mode_hint": "Technology transfer failures",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I18",
+    "name": "Delay-Stress Cascade",
+    "constraints": ["C14", "C03"],
+    "activation_strength": 90,
+    "failure_mode_hint": "Reduced stunning reliability",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I19",
+    "name": "Delay-Crowding Cascade",
+    "constraints": ["C14", "C11"],
+    "activation_strength": 85,
+    "failure_mode_hint": "Escalating welfare compromise",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I20",
+    "name": "Delay-Handling Cascade",
+    "constraints": ["C14", "C10"],
+    "activation_strength": 85,
+    "failure_mode_hint": "Elevated suffering before slaughter",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I21",
+    "name": "Verification Blindness",
+    "constraints": ["C06", "C20"],
+    "activation_strength": 95,
+    "failure_mode_hint": "Systemic undetected welfare failures",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I22",
+    "name": "Monitoring Without Indicators",
+    "constraints": ["C20", "C07"],
+    "activation_strength": 85,
+    "failure_mode_hint": "Data without welfare meaning",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I23",
+    "name": "Cost-Driven Maintenance Suppression",
+    "constraints": ["C17", "C16"],
+    "activation_strength": 85,
+    "failure_mode_hint": "Equipment deterioration",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I24",
+    "name": "Cost-Driven Verification Suppression",
+    "constraints": ["C17", "C06"],
+    "activation_strength": 80,
+    "failure_mode_hint": "Welfare assurance gaps",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+
+  {
+    "id": "I25",
+    "name": "Capital Barrier × Retrofit Constraint",
+    "constraints": ["C18", "C21"],
+    "activation_strength": 90,
+    "failure_mode_hint": "Technology adoption stagnation",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I26",
+    "name": "Capital Barrier × Cost Sensitivity",
+    "constraints": ["C18", "C17"],
+    "activation_strength": 85,
+    "failure_mode_hint": "Continued use of suboptimal systems",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I27",
+    "name": "Regulatory Vacuum",
+    "constraints": ["C19", "C22"],
+    "activation_strength": 90,
+    "failure_mode_hint": "Minimal welfare accountability",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I28",
+    "name": "Regulatory-Certification Misalignment",
+    "constraints": ["C19", "C24"],
+    "activation_strength": 80,
+    "failure_mode_hint": "Symbolic welfare compliance",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+
+  {
+    "id": "I29",
+    "name": "Enforcement-Certification Shield",
+    "constraints": ["C22", "C24"],
+    "activation_strength": 80,
+    "failure_mode_hint": "Persistent welfare failures despite certification",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+
+  {
+    "id": "I30",
+    "name": "Retrofit-Monitoring Barrier",
+    "constraints": ["C21", "C20"],
+    "activation_strength": 75,
+    "failure_mode_hint": "Monitoring adoption bottleneck",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+
+  {
+    "id": "I31",
+    "name": "Species × Indicator Failure",
+    "constraints": ["C01", "C07"],
+    "activation_strength": 90,
+    "failure_mode_hint": "Misclassification of consciousness",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I32",
+    "name": "Species × Consciousness Uncertainty",
+    "constraints": ["C01", "C26"],
+    "activation_strength": 90,
+    "failure_mode_hint": "Species-specific welfare blind spots",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I33",
+    "name": "Throughput × Monitoring Failure",
+    "constraints": ["C05", "C20"],
+    "activation_strength": 90,
+    "failure_mode_hint": "High-frequency unnoticed failures",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I34",
+    "name": "Throughput × Crowding Interaction",
+    "constraints": ["C05", "C11"],
+    "activation_strength": 85,
+    "failure_mode_hint": "Elevated pre-slaughter suffering",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I35",
+    "name": "Skill × Precision Interaction",
+    "constraints": ["C13", "C15"],
+    "activation_strength": 90,
+    "failure_mode_hint": "Increased targeting errors",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+
+  {
+    "id": "I36",
+    "name": "Stress × Verification Distortion",
+    "constraints": ["C03", "C07"],
+    "activation_strength": 80,
+    "failure_mode_hint": "Misinterpretation of insensibility",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+
+  {
+    "id": "I37",
+    "name": "Environmental × Reliability Interaction",
+    "constraints": ["C25", "C08"],
+    "activation_strength": 80,
+    "failure_mode_hint": "Unpredictable stunning effectiveness",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+
+  {
+    "id": "I38",
+    "name": "Environmental × Retrofit Interaction",
+    "constraints": ["C25", "C21"],
+    "activation_strength": 75,
+    "failure_mode_hint": "Persistent process variability",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+
+  {
+    "id": "I39",
+    "name": "Cost × Monitoring Gap",
+    "constraints": ["C17", "C20"],
+    "activation_strength": 80,
+    "failure_mode_hint": "Welfare intelligence deficit",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+
+  {
+    "id": "I40",
+    "name": "Triple Constraint Welfare Trap",
+    "constraints": ["C05", "C06"],
+    "activation_strength": 100,
+    "failure_mode_hint": "Persistent undetected stun failures at scale",
+    "evidence_status": "E3",
+    "confidence": "High"
+  }
+]

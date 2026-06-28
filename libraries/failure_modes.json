@@ -1,0 +1,164 @@
+[
+  {
+    "id": "FM01",
+    "name": "Incomplete Initial Stunning",
+    "interaction_ids": ["I01", "I13"],
+    "activation_strength": 90,
+    "risk_hint": "Conscious exposure to slaughter procedures",
+    "evidence_status": "E1",
+    "confidence": "High"
+  },
+  {
+    "id": "FM02",
+    "name": "Delayed Loss of Consciousness",
+    "interaction_ids": ["I02", "I03"],
+    "activation_strength": 85,
+    "risk_hint": "Prolonged conscious suffering",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM03",
+    "name": "Recovery After Stunning",
+    "interaction_ids": ["I10", "I11", "I12"],
+    "activation_strength": 90,
+    "risk_hint": "Consciousness during processing",
+    "evidence_status": "E1",
+    "confidence": "High"
+  },
+  {
+    "id": "FM04",
+    "name": "False Positive Insensibility Assessment",
+    "interaction_ids": ["I08", "I09"],
+    "activation_strength": 90,
+    "risk_hint": "Hidden welfare failures",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM05",
+    "name": "False Negative Insensibility Assessment",
+    "interaction_ids": ["I36"],
+    "activation_strength": 75,
+    "risk_hint": "Unnecessary repeat interventions",
+    "evidence_status": "E2",
+    "confidence": "Medium"
+  },
+  {
+    "id": "FM06",
+    "name": "Precision Stunning Failure",
+    "interaction_ids": ["I16", "I35"],
+    "activation_strength": 90,
+    "risk_hint": "Severe injury without insensibility",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM07",
+    "name": "Batch-Level Stunning Variability",
+    "interaction_ids": ["I01", "I13", "I14", "I15"],
+    "activation_strength": 85,
+    "risk_hint": "Highly inconsistent welfare outcomes",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM08",
+    "name": "Undetected Stun Failure",
+    "interaction_ids": ["I21", "I22", "I33"],
+    "activation_strength": 95,
+    "risk_hint": "Persistent hidden suffering",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM09",
+    "name": "Stress-Induced Stunning Instability",
+    "interaction_ids": ["I02", "I03", "I18", "I19", "I20"],
+    "activation_strength": 90,
+    "risk_hint": "Variable consciousness outcomes",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM10",
+    "name": "Equipment Drift Failure",
+    "interaction_ids": ["I10", "I11", "I12", "I37"],
+    "activation_strength": 85,
+    "risk_hint": "Increasing welfare failures over time",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM11",
+    "name": "Throughput-Induced Welfare Failure",
+    "interaction_ids": ["I04", "I05", "I06", "I33", "I34", "I40"],
+    "activation_strength": 95,
+    "risk_hint": "Large-scale welfare compromise",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM12",
+    "name": "Electrical Energy Delivery Failure",
+    "interaction_ids": ["I13", "I14", "I15"],
+    "activation_strength": 90,
+    "risk_hint": "Incomplete electrical stunning",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM13",
+    "name": "Species Transfer Failure",
+    "interaction_ids": ["I17", "I31", "I32"],
+    "activation_strength": 85,
+    "risk_hint": "Technology deployment failure across species",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM14",
+    "name": "Monitoring Blind Spot",
+    "interaction_ids": ["I21", "I22", "I30", "I39"],
+    "activation_strength": 85,
+    "risk_hint": "Chronic unidentified suffering",
+    "evidence_status": "E3",
+    "confidence": "Medium"
+  },
+  {
+    "id": "FM15",
+    "name": "Consciousness Verification Failure",
+    "interaction_ids": ["I08", "I09", "I31", "I32"],
+    "activation_strength": 90,
+    "risk_hint": "Unable to determine conscious state",
+    "evidence_status": "E3",
+    "confidence": "Medium-High"
+  },
+  {
+    "id": "FM16",
+    "name": "Adoption Failure of Humane Technology",
+    "interaction_ids": ["I23", "I24", "I25", "I26"],
+    "activation_strength": 85,
+    "risk_hint": "Failure to deploy effective technologies",
+    "evidence_status": "E2",
+    "confidence": "High"
+  },
+  {
+    "id": "FM17",
+    "name": "Verification Bottleneck Failure",
+    "interaction_ids": ["I04", "I21", "I33", "I40"],
+    "activation_strength": 95,
+    "risk_hint": "Verification collapses at scale",
+    "evidence_status": "E3",
+    "confidence": "High"
+  },
+  {
+    "id": "FM18",
+    "name": "Systemic Welfare Blindness",
+    "interaction_ids": ["I21", "I22", "I27", "I28", "I29", "I40"],
+    "activation_strength": 100,
+    "risk_hint": "Persistent undetected suffering",
+    "evidence_status": "E3",
+    "confidence": "High"
+  }
+]
